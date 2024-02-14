@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZT Labs Route MVP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+<body>
+  <div id="map"></div>
+
+
+  <div class="header">
+    <div class="block address-block">
+      <input style="width: 70%;"  type="text" id="plotaddress" placeholder="Enter address">
+      <button style="width: max-content;" onclick="plotaddress()">Add Address</button>
+    </div>
+
+
+    <div class="block address-block">
+      <input style="width: 70%;" type="text" id="plotTechnician" placeholder="Enter technician's location">
+      <button style="width: max-content;" onclick="addTechnicianLocation()">Add Technician Location</button>
+    </div>
+
+
+    <div class="block">
+      <button class="plan-route" onclick="planRoute()">Plan Route</button>
+      <button style="width: max-content;" class="mark-completed-button" onclick="markJobCompleted()">Mark As Completed</button>
+    </div>
+  </div>
+
+
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3FqeaNMevABlI83EbJodYxsnmpoxi1Ls&callback=initMap&libraries=places,geometry&csp_test=true""></script>
+  <script src="googleapiscript.js"></script>
+</body>
+
+</html>

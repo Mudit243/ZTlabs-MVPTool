@@ -1,0 +1,75 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Map container styles */
+#map {
+  height: 400px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* header container styles */
+.header {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input container styles */
+.block {
+  margin-bottom: 10px;
+}
+
+.block input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.block button {
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.block button:hover {
+  background-color: #0056b3;
+}
+
+/* Plan route button styles */
+.plan-route {
+  background-color: #28a745;
+}
+
+.plan-route:hover {
+  background-color: #218838;
+}
+
+/* Mark completed button styles */
+.mark-completed-button {
+  background-color: #dc3545;
+}
+
+.mark-completed-button:hover {
+  background-color: #c82333;
+}
